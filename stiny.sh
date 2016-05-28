@@ -1,6 +1,6 @@
 #! /bin/bash
 # $author: twfcc@twitter
-# $PROG: install_sslproxy.sh
+# $PROG: stiny.sh
 # $Usage: $0 {-n|-s} 
 # description: install HTTPS/SSL proxy on [NAT IPv4 Share|Dedicated IPv4] VPS(OpenVZ)
 # Public Domain use as your own risk!
