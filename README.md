@@ -46,4 +46,4 @@ According to your VPS type, NAT Share IPv4 VPS input:
 
 For Dedicated IPv4 VPS, input:
 
-./stiny.sh
+./stiny.sh -s
