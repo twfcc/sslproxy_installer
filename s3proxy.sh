@@ -142,9 +142,9 @@ username_gen(){
 	uletter="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 	digit="123456789"
 	ulength=${#uletter}
-	udigit=${#digit}
+	dlength=${#digit}
 	for ((i=1 ; i<=2 ; i++)) ; do
-		pick=${uletter:$((RANDOM%ulength-1)):1}${digit:$((RANDOM%udigit-1)):1}
+		pick=${uletter:$((RANDOM%ulength-1)):1}${digit:$((RANDOM%dlength-1)):1}
 		username="$username$pick"
 	done
 	echo "$username"
