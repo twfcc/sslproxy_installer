@@ -75,7 +75,7 @@ For Dedicated IPv4 VPS, input:
 
 ./stiny.sh -s
 
-If you select s3proxy.sh to install HTTPS/SSL proxy server, inpu
+If you select s3proxy.sh to install HTTPS/SSL proxy server, input:
 
 wget --no-check-certificate https://raw.githubusercontent.com/twfcc/sslproxy_installer/master/s3proxy.sh
 
