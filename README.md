@@ -44,7 +44,11 @@ chmod +x s3proxy.sh
 
 ./s3proxy.sh -s
 
+刪除安裝的軟件，執行
 
+wget --no-check-certificate https://raw.githubusercontent.com/twfcc/sslproxy_installer/master/uninstall.sh
+
+chmod +x uninstall.sh && ./uninstall.sh
 
 Explanation
 
@@ -89,3 +93,8 @@ or
 
 ./s3proxy.sh -s
 
+Uninstall all installed compontents , input:
+
+wget --no-check-certificate https://raw.githubusercontent.com/twfcc/sslproxy_installer/master/uninstall.sh
+
+chmod +x uninstall.sh && ./uninstall.sh
